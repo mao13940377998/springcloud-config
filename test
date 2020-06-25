@@ -1,1 +1,7 @@
-
+hztech: hello prod 1.11
+spring:
+    cloud:
+         config:
+             overrideNone: false
+             allowOverride: true
+             overrideSystemProperties: true
